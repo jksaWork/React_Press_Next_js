@@ -1,0 +1,167 @@
+
+/* landing grid system and style  */
+.landing_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+/* end social link and start the posts shape  */
+.artical {
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+}
+.latest_post_artical {
+    padding: 5px;
+    font-size: 18px;
+}
+.artical h6,
+.date {
+    color: #ddd;
+}
+.margin_top {
+    margin: 100px 0;
+}
+.grid_template_categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px 10px;
+    font-size: 18px;
+}
+.grid_template_categories_2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px 10px;
+    font-size: 18px;
+}
+
+.block_artical_img {
+    margin: 10px 0;
+    overflow: hidden;
+}
+.block_artical_img_class {
+    min-height: 200px;
+    max-height: 230px;
+
+    min-width: 99%;
+    max-width: 100%;
+}
+.artical_descrption {
+    margin: 10px 0;
+}
+.artical_descrption a {
+    color: #464855;
+}
+
+/* inlne description style */
+.inline_artical {
+    display: flex;
+    justify-content: space-between;
+}
+.inline_img {
+    width: 30%;
+    overflow: hidden;
+}
+.inline_img_class {
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    max-height: 120px;
+}
+.inline_artical_description {
+    width: 67%;
+}
+.inline_artical .inline_artical_description a {
+    color: #464855;
+}
+.short_des,
+.inline_short_des {
+    background: var(--main-color);
+    color: #fff;
+    padding: 3px;
+}
+
+.grid_slider_section {
+    display: grid;
+    grid-template-columns: minmax(700px, 1fr) 1fr;
+    grid-template-rows: 400px;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .grid_slider_section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+/* .grid_slider_section .slider_continer {
+    border: 1px solid #ccc;
+}
+.grid_slider_section .latest_post {
+    border: 1px solid #ccc;
+} */
+/* show post style */
+.show_post_grid {
+    display: grid;
+    grid-template-columns: 1fr minmax(700px, 1fr);
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+}
+@media (max-width: 992px) {
+    .show_post_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+.post_info,
+.post_img {
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+}
+.post_info {
+    font-size: 20px;
+}
+.post_info .short_desc {
+    background: var(--main-color);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+.post_info .post_title {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.post_date {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.post_info_ads {
+    display: grid;
+    grid-template-columns: 1fr 800px;
+}
+@media (max-width: 768px) {
+    .post_date {
+        display: none;
+    }
+}
+.post_content {
+    font-size: 20px;
+}
+/*######################## copy past from old styel#################  */
+.img_svg_des {
+    max-width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    border: 1px solid var(--gray-color);
+}
+.img_svg_des img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.desc_word .cl_main {
+    font-weight: 1000;
+}
+.desc_word p {
+    padding: 20px;
+    overflow: hidden;
+}

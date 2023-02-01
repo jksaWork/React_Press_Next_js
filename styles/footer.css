@@ -1,0 +1,86 @@
+footer {
+    color:  #ecf0fa;
+    background: #464855;
+
+
+}
+.awesome_color {
+    color: #464855;
+}
+
+/* grid col to footer */
+.grid_footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.grid_footer div {
+    padding: 10px;
+}
+.grid_footer div a {
+    color: #fff !important;
+}
+/*########################### sbuscribe section  #############################*/
+.subscribe_email {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+.subscribe_input,
+.subscribe_descrption {
+    width: 50%;
+    flex: 1;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .subscribe_email {
+        display: inline-block;
+    }
+    .subscribe_input,
+    .subscribe_descrption {
+        width: 100%;
+    }
+}
+.subscribe_descrption {
+    padding: 50px 30px;
+}
+.subscribe_input {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.input_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+}
+.subscribe_input_filed {
+    all: unset;
+    background: #fff;
+    width: 75%;
+    /* border-radius: 5px 0 0 5px; */
+    /* border-radius: 0 5px 5px 0;   */
+    font-size: 20px;
+    padding: 5px;
+}
+.subscribe_button {
+    display: inline-block;
+    background: rgba(255 255 255 / 0.59);
+    border-radius: 5px ;
+    padding: 5px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.post_img_class {
+    max-width: 700px;
+    max-height: 400px;
+    min-width: 99%;
+    min-height: 99%;
+}
+@media (max-width: 768px) {
+    .post_img_class {
+        max-width: 99%;
+        max-height: 99%;
+    }
+}
